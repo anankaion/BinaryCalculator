@@ -58,4 +58,26 @@ int main(int argc, char** argv) {
                 break;
         }
     }
+
+    string_to_bits(first_number_string, &first_number);
+    string_to_bits(second_number_string, &second_number);
+
+    switch (opt) {
+        //add
+        case 'a':
+            break;
+
+        //substract
+        case 's':
+            break;
+
+        //multiply
+        case 'm':
+            break;
+
+        //divide
+        case 'd':
+            break;
+
+    }
 }
